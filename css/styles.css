@@ -1,0 +1,223 @@
+body{
+    font-family:Montserrat ;
+}
+#title{
+
+    background-color:#ff4c68 ;
+    color: #fff;
+}
+
+.navbar{
+    background-color: #ff4c68;
+    /* padding-bottom: 3rem; */
+    padding: 0 0 5rem 0;
+}
+.img_title{
+    width: 50%;
+}
+.showimg{
+    text-align: center;
+}
+
+.navbar-brand{
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 500;
+    font-size: 2.5rem;
+}
+
+.nav-link{
+    /* font-family: 'Ubuntu', sans-serif; */
+    font-size: 1.3rem;
+    margin-left: 4rem;
+
+}
+
+.button{
+    /* padding: 0 2rem; */
+    margin-right: 0.5rem;
+}
+
+.title_heading{
+    font-size: 3.5rem;
+    /* font-family: Montserrat-Black; */
+    font-family: 'Montserrat-Black', sans-serif;
+    font-weight: 900;
+    line-height: 1.5;
+    padding: 0 0 1rem 0;
+}
+.container-fluid{
+    padding: 3rem 13rem 9rem;
+}
+
+
+
+.img_title {
+    transform: rotate(25deg); /* Equal to rotateZ(45deg) */
+    position: absolute;
+    right: 170px;
+    /* background-color: pink; */
+  }
+/* 
+h1 {  font-family: Montserrat-Black;
+    font-size: 3rem;
+    line-height: 1.5;
+} */
+
+/* ###################################################### Features################################ */
+
+#features{
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+    background-color: #fff;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+}
+
+.icons{
+    font-size: 4rem;
+    color: #65484c;
+    padding-bottom: 1.2rem;
+
+}
+
+.icons:hover{
+    color: rgb(221, 38, 62);
+}
+
+.featured_title{
+    font-family:Montserrat ;
+    font-weight: 800;
+    
+}
+
+
+/* ############################################## Testimonials ############################## */
+
+#testimonials{
+    
+    text-align: center;
+    background-color: #ef8172;
+    color: #fff;
+}
+h2{
+    font-family:Montserrat-Bold ;
+    font-size: 4rem;
+    /* color: #fff; */
+    font-weight: 800;
+    line-height: 1.5;
+}
+.testi_img{
+    width: 15%;
+    border-radius: 100%;
+    padding: 15px 16px;
+}
+
+.carousel-item{
+    padding: 7rem 15rem;
+}
+
+/* ########################################### Press ############################################### */
+
+#press{
+    background-color: #ef8172;
+    padding: 2rem 15rem 7rem 15rem;
+
+}
+
+.press-img{
+    margin: 0px 1.5rem;
+    width: 20%;
+}
+
+/* ###############################################pricing##########################################  */
+
+#pricing{
+    padding: 7rem 15rem;
+    text-align: center;
+}
+
+.card{
+    /* padding: 3% 2%; */
+    MARGIN: 10% 2%;
+}
+
+.card-header{
+    font-family: Montserrat;
+    font-weight: 800;
+    font-size: 1rem;
+}
+.card-title{
+    font-family: Montserrat;
+    font-weight: 800;
+    font-size: 1.8rem;
+}
+
+
+
+
+/* ####################################### media query ################################  */
+
+@media(max-width:1028px)
+{
+
+    #title{
+
+        text-align: center;
+    }
+    .img_title {
+        transform: rotate(0); /* Equal to rotateZ(45deg) */
+        position: static;
+    
+        /* background-color: pink; */
+      }
+}
+
+/* ############################################cta###########################################  */
+
+#cta{
+
+    background-color:#ff4c68 ;
+    padding: 7rem 15rem;
+    text-align: center;
+}
+
+.btn_cta{
+    margin: 5rem 1rem;
+}
+
+.cta_title{
+    font-family: Montserrat;
+    font-weight: 900;
+    font-size: 4rem;
+    color: #fff;
+    line-height: 1.5;
+}
+
+.card1 {
+    padding-bottom: 20;
+
+}
+.card2 {
+    padding-bottom: 20;
+
+}
+
+.btn-card1 {
+    margin-top: 56px;
+}
+.btn-card2 {
+    margin-top: 56px;
+}
+
+/* ####################################################### footer ######################################  */
+
+#footer{
+
+    padding: 5rem 15rem 3rem;
+    text-align: center;
+}
+
+.fi{
+    padding: 1.5rem 1rem;
+}
